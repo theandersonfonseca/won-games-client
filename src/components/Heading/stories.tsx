@@ -17,6 +17,14 @@ export default {
     },
     lineBottom: {
       type: 'boolean'
+    },
+    size: {
+      type: 'radio',
+      options: ['small', 'medium']
+    },
+    lineColor: {
+      type: 'radio',
+      options: ['primary', 'secondary']
     }
   }
 } as Meta
