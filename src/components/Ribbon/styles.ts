@@ -17,7 +17,7 @@ const wrapperModifiers = {
     font-size: ${theme.font.sizes.small};
     padding: 0 ${theme.spacings.small};
     height: 3.6rem;
-    right: -2rem;
+    right: -1.8rem;
 
     &::before {
       top: 3.6rem;
@@ -30,7 +30,7 @@ const wrapperModifiers = {
     font-size: ${theme.font.sizes.xsmall};
     padding: 0 ${theme.spacings.xsmall};
     height: 2.6rem;
-    right: -1.5rem;
+    right: -1.4rem;
 
     &::before {
       top: 2.6rem;
@@ -48,6 +48,7 @@ export const Wrapper = styled.div<Omit<RibbonProps, 'children'>>`
     align-items: center;
     font-weight: ${theme.font.bold};
     color: ${theme.colors.white};
+    z-index: ${theme.layers.base};
 
     &::before {
       content: '';
