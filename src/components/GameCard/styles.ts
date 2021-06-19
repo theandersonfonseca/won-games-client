@@ -38,6 +38,11 @@ export const ImageBox = styled.a`
   );
   background-size: 80rem 14rem;
   animation: placeholderShimmer 1s linear infinite forwards;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
 
   @keyframes placeholderShimmer {
     0% {
