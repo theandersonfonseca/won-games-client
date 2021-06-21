@@ -10,6 +10,9 @@ export default {
       type: 'radio',
       options: ['small', 'medium', 'large']
     },
+    minimal: {
+      type: 'boolean'
+    },
     icon: {
       type: ''
     }
