@@ -8,6 +8,7 @@ export const Wrapper = styled.menu`
     align-items: center;
     justify-content: space-between;
     padding: ${theme.spacings.small} 0;
+    z-index: ${theme.layers.menu};
   `}
 `
 
