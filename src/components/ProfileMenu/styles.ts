@@ -34,6 +34,7 @@ type LinkProps = {
 
 export const Link = styled.a<LinkProps>`
   ${({ theme, isActive }) => css`
+    cursor: pointer;
     background: ${theme.colors.white};
     color: ${theme.colors.black};
     text-decoration: none;
