@@ -7,6 +7,13 @@ import highlightMock from 'components/Highlight/mock'
 
 import Home from '.'
 
+jest.mock('templates/Base', () => ({
+  __esModule: true,
+  default: function Mock({ children }: { children: React.ReactNode }) {
+    return <div data-testid="Mock Base">{children}</div>
+  }
+}))
+
 const props = {
   banners: bannerMock,
   newGamesTitle: 'New Games',
