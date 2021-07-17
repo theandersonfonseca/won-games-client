@@ -37,19 +37,23 @@ describe('<Menu />', () => {
 
   it('should show register box when logged out', () => {
     render(<Menu />)
-
-    expect(screen.getByText(/log in now/i)).toBeInTheDocument()
-    expect(screen.getByText(/sign up/i)).toBeInTheDocument()
     expect(screen.queryByText(/my profile/i)).not.toBeInTheDocument()
-    expect(screen.queryByText(/whishlist/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/wishlist/i)).not.toBeInTheDocument()
+    expect(screen.getByText(/sign up/i)).toBeInTheDocument()
+    expect(screen.getAllByText(/sign in/i)).toHaveLength(2)
   })
-
-  it('should show wishlist and account when logged in', () => {
-    render(<Menu username="username" />)
-
+  it('should show wishlight and account when logged in', () => {
+    render(<Menu username="will" />)
     expect(screen.getAllByText(/my profile/i)).toHaveLength(2)
     expect(screen.getAllByText(/wishlist/i)).toHaveLength(2)
-    expect(screen.queryByText(/log in now/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/sign in/i)).not.toBeInTheDocument()
     expect(screen.queryByText(/sign up/i)).not.toBeInTheDocument()
+  })
+
+  it('should not show sign ir or dropdownUser if loading', () => {
+    render(<Menu username="will" loading />)
+
+    expect(screen.queryByText(/my profile/i)).not.toBeInTheDocument()
+    expect(screen.queryByText(/sign in/i)).not.toBeInTheDocument()
   })
 })
