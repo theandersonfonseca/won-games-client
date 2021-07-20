@@ -1,3 +1,4 @@
+import '../../../.jest/session.mock'
 import '../../../.jest/match-media-mock'
 import { render, screen } from 'utils/test-utils'
 
