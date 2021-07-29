@@ -1,6 +1,6 @@
-# Won-Games-Client
-
-🚧 **Em Construção...** 🚧
+<div align="center" style="display: flex">
+  <h1> 🚧 Em Construção... 🚧</h1>
+</div>
 
 ## 🛠️ Tecnologias
 
