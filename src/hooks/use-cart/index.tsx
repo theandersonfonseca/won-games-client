@@ -75,7 +75,6 @@ const CartProvider = ({ children }: CartProviderProps) => {
   }
 
   const addToCart = (id: string) => {
-    console.log('teste')
     saveCart([...cartItems, id])
   }
 
