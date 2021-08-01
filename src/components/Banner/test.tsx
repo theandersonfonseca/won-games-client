@@ -19,16 +19,10 @@ describe('<Banner />', () => {
     ).toBeInTheDocument()
 
     expect(
-      screen.getByRole('heading', {
-        name: /Play the new CrashLands season/i
-      })
+      screen.getByRole('heading', { name: /Play the new CrashLands season/i })
     ).toBeInTheDocument()
 
-    expect(
-      screen.getByRole('img', {
-        name: /Defy death/i
-      })
-    ).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /Defy death/i })).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
