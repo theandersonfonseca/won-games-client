@@ -20,5 +20,26 @@ describe('Game Page', () => {
     })
 
     cy.getByDataCy('content').children().should('have.length.at.least', 2)
+
+    // Details
+    cy.getByDataCy('game-details').within(() => {
+      cy.findByRole('heading', { name: /game details/i }).should('exist')
+      cy.findByRole('heading', { name: /developer/i }).should('exist')
+      cy.findByRole('heading', { name: /release date/i }).should('exist')
+      cy.findByRole('heading', { name: /platforms/i }).should('exist')
+      cy.findByRole('heading', { name: /publisher/i }).should('exist')
+      cy.findByRole('heading', { name: /rating/i }).should('exist')
+      cy.findByRole('heading', { name: /genres/i }).should('exist')
+
+      cy.findAllByText(/hello games/i).should('have.length', 2)
+      cy.findByText(/aug 10, 2016/i).should('exist')
+      cy.findByRole('img', { name: /windows/i }).should('exist')
+      cy.findByText(/free/i).should('exist')
+      cy.findByText('Adventure / Sandbox / Action').should('exist')
+    })
+
+    cy.shouldRenderShowcase({ name: "Upcoming Games", highlight: true})
+    cy.shouldRenderShowcase({ name: "You may like these games", highlight: false})
+
   });
 });
