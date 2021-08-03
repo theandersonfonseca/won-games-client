@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="./public/img/logo.png" width="200px"/>
+  <img src="./public/img/logo.png" width="100px"/>
 </div>
 
 ## 💻 Projeto
