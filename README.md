@@ -4,14 +4,32 @@
 
 ## 💻 Projeto
 
-Won Games é um e-commerce de jogos desenvolvido durante o curso de [React Avançado do Willian Justen](https://www.udemy.com/course/react-avancado/), o usuário pode filtrar os jogos, adiciona-los ao carrinho e favoritos, criar conta, recuperar senha, etc. O projeto também inclui toda a parte de pagamentos e histórico de compras. 
+Won Games é um e-commerce de jogos desenvolvido durante o curso de [React Avançado do Willian Justen](https://www.udemy.com/course/react-avancado/), o usuário pode filtrar os jogos, adiciona-los ao carrinho e favoritos, criar conta, recuperar senha, etc. O projeto também inclui toda a parte de pagamentos e histórico de compras.
 
 - **[Repositório da API feita com Strapi](https://github.com/theandersonfonseca/won-games-api)**
 ___
 
 ## 📷 Demonstração
 
-[...]
+![](./github/home.png)
+
+---
+
+![](./github/sign.png)
+
+---
+
+![](./github/explore.png)
+
+---
+
+![](./github/game.png)
+
+---
+
+![](./github/cart.png)
+
+---
 
 ## 🛠️ Tecnologias
 
@@ -31,5 +49,5 @@ ___
 
 ___
 
-Feito com 💜 por **[Anderson Fonseca](https://github.com/theandersonfonseca)**. 
+Feito com 💜 por **[Anderson Fonseca](https://github.com/theandersonfonseca)**.
 
