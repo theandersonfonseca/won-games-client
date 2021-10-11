@@ -2,36 +2,22 @@
   <img src="./public/img/logo.png" width="100px"/>
 </div>
 
-## 💻 Projeto
+## 💻 Sobre o projeto
 
-Won Games é um e-commerce de jogos desenvolvido durante o curso de [React Avançado do Willian Justen](https://www.udemy.com/course/react-avancado/), o usuário pode filtrar os jogos, adiciona-los ao carrinho e favoritos, criar conta, recuperar senha, etc. O projeto também inclui toda a parte de pagamentos e histórico de compras.
+Won Games é um e-commerce de jogos desenvolvido durante o curso de **[React Avançado do Willian Justen](https://www.udemy.com/course/react-avancado/)**, a aplicação inclui toda a parte de pagamentos e área do cliente. Os clientes poderão fazer buscas, filtrar, adicionar ao carrinho e comprar seus jogos favoritos.
 
-- **[Repositório da API feita com Strapi](https://github.com/theandersonfonseca/won-games-api)**
-___
+- **[Acesse o layout](https://www.figma.com/file/8KXr60mZZqL6kqecp1ZeeP/Won-Games-English?node-id=139%3A0)**
+- **[Acesse o Repositório da API](https://github.com/theandersonfonseca/won-games-api)**
 
-## 📷 Demonstração
-
-![](./github/home.png)
+![](./github/won-games.gif)
 
 ---
 
-![](./github/sign.png)
+![](./github/won-games-mobile.gif)
 
 ---
 
-![](./github/explore.png)
-
----
-
-![](./github/game.png)
-
----
-
-![](./github/cart.png)
-
----
-
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias utilizadas
 
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[NextJS](https://nextjs.org/)**
@@ -48,6 +34,43 @@ ___
 - **[Husky](https://github.com/typicode/husky)**
 
 ___
+
+## ⚙️ Executando o projeto
+
+Antes de mais nada, execute o **[Back-end](https://github.com/theandersonfonseca/won-games-api)**
+
+### Pré-requisitos
+
+- **[GIT](https://git-scm.com/)**
+- **[Node](https://nodejs.org/en/)**
+- **[Yarn](https://classic.yarnpkg.com/en/docs/install/)**
+
+**Clone o repositório**
+
+```
+git clone https://github.com/theandersonfonseca/won-games-client.git
+```
+
+**Acesse a pasta do projeto**
+
+```
+cd won-games-client
+```
+
+**Instale as dependências**
+
+```
+yarn
+```
+
+**Inicie a aplicação**
+
+```
+yarn dev
+```
+
+
+---
 
 Feito com 💜 por **[Anderson Fonseca](https://github.com/theandersonfonseca)**.
 
